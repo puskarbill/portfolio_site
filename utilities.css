@@ -1,0 +1,89 @@
+.flex{
+    display: flex;
+
+}
+.item-center{
+    align-items: center;
+
+}
+.justify-between{
+    justify-content: space-between;
+}
+.btn{
+    padding: 0.8rem 3rem;
+    font-size: 1rem;
+    font-weight: 600;
+    border:2px solid transparent;
+    outline:none;
+    cursor:pointer;
+    text-transform: uppercase;
+    transition:all .3s ease;
+    
+}
+.btn-primary{
+    background: aqua;
+    color:black;
+}
+.btn-primary:hover{
+    background: transparent;
+    border-color: aqua;
+    color:aqua
+
+}
+.top-left{
+    position: absolute;
+    top:0;
+    left:0;
+    width: 200px;
+}
+.right h1{
+    color:white;
+}
+.right h5{
+    color: aqua;
+    font-weight: 100;
+}
+.btn-secondary{
+    background:transparent;
+    color:aqua;
+    border-color:aqua;
+}
+.btn-secondary:hover{
+    background: aqua;
+    color: black;
+}
+.hero .right h6{
+    font: size 1.6rem;
+    margin-bottom: 0.5rem;
+}
+.hero .right h1{
+    font-weight: 100;
+    margin-bottom: 2rem;
+    
+    
+}
+.hero .right p{
+    color: white;
+}
+.hero .right h1 span{
+    color: aqua;
+}
+.hero .right p{
+    line-height:1.9;
+    margin-bottom: 2rem;
+}
+/* given below for space between picture and text */
+.flex-1{
+    flex:1;
+
+}
+.justify-center{
+    justify-content: center;
+}
+section{
+    padding:6rem 0;
+}
+.l{
+    height: 100px;
+    width: 100px;
+}
